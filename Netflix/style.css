@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    /* height: 90%; */
+    background: linear-gradient(to top right, #0000007a, #000000e0), 
+        url(https://assets.nflxext.com/ffe/siteui/vlv3/150c4b42-11f6-4576-a00f-c631308b1e43/web/IN-en-20241216-TRIFECTA-perspective_915a9055-68ad-4e81-b19a-442f1cd134dc_large.jpg) 
+        center center/cover no-repeat;
+    background-attachment: fixed;
+    background-position: 0px 0px;
+}
+.container{
+    /* background-color: rgba(0, 0, 0, 0.39); */
+    min-height: 100vh;
+}
+option>img{
+    filter: invert(0);
+}
+
+.logo img{
+    width: 20%;
+    /* height:90%; */
+}
+.navbar{
+    display: flex;
+    padding: 15px 150px;
+}
+.nav-container{
+    display: flex;
+    gap: 12px;
+}
+.lang-logo{
+    width: 12px;
+    filter: invert();
+    position: absolute;
+    top: 40px;
+    right: 345px;
+}
+select{
+    /* color: black; */
+    background-color: rgba(0, 0, 0, 0.651);
+    padding: 5px 20px;
+    padding-left: 25px;
+    border-radius: 5px;
+    margin: 16px 0;
+    width: 9vw;
+    font-weight: 600;
+}
+.sign{
+    background-color: #e50914;
+    width: 6vw;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 15px 0 ;
+}
+
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18vh; 
+   
+}
+.contain{
+    width: 40vw;
+    text-align: center;
+}
+.contain h1{
+    text-align: center;
+    font-size: 56px;
+    line-height: 68px;
+    font-weight: 900;
+}
+.contain h3{
+    margin-top: 16px;
+    text-align: center;
+    font-size: 20px;    
+    font-weight: 500;
+}
+.contain p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 33px;
+}
+
+.input{
+    margin-top: 12px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+input{
+    align-items: center;
+    padding: 15px 12px;
+    background-color: #2927277e;
+    border: 1px solid rgb(112, 100, 100);
+    width: 22vw;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #fff;
+}
+input::placeholder{
+    font-size: 16px;
+    color: rgb(159, 161, 162);
+}
+
+.get-started{
+    background-color: #e50914;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.curve-line{
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    height: 60px;
+}
+
+.line{
+    /* position: absolute; */
+    height: 3px;
+    bottom: 1px;
+    background: linear-gradient(to right ,#771c45,#e10c1c,#771c45);
+
+}
