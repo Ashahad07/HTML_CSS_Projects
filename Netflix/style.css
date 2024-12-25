@@ -4,15 +4,13 @@
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body {
-    /* height: 90%; */
+
+.container{
     background: linear-gradient(to top right, #0000007a, #000000e0), 
         url(https://assets.nflxext.com/ffe/siteui/vlv3/150c4b42-11f6-4576-a00f-c631308b1e43/web/IN-en-20241216-TRIFECTA-perspective_915a9055-68ad-4e81-b19a-442f1cd134dc_large.jpg) 
         center center/cover no-repeat;
     background-attachment: fixed;
     background-position: 0px 0px;
-}
-.container{
     /* background-color: rgba(0, 0, 0, 0.39); */
     min-height: 100vh;
 }
@@ -133,4 +131,221 @@ input::placeholder{
     bottom: 1px;
     background: linear-gradient(to right ,#771c45,#e10c1c,#771c45);
 
+}
+
+.page2{
+    background-color: #000000;
+    padding: 2vw 10vw;
+}
+
+.page2 h2{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.page2 #region{
+    margin-right: 10px;
+    padding: 7px 10px;
+    font-size: 16px;
+    background-color: rgba(128, 128, 128, 0.192);
+}
+.page2 #movies{
+    padding: 7px 10px;
+    background-color: rgba(128, 128, 128, 0.192);
+    font-size: 16px;
+}
+
+.trending-contain select option{
+    color: #000000;
+}
+
+.top-movies{
+    display: flex;
+    width: 78vw;
+    /* background-color: #771c45; */
+    overflow: auto;
+    scrollbar-width: none;
+    margin-bottom: 25px;
+}
+
+.movies-card img {
+    border-radius: 10px;
+    width: 12vw;
+    margin: 2vw 2.3vw;
+}
+.movies-card img:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.more-reasons{
+    position: relative;
+    
+}
+.reason-card{
+    display: flex;
+}
+.card{
+    box-sizing: border-box;
+    height: 330px;
+    width: 260px;
+    background: linear-gradient(to top left , #210e17, #192246);
+    padding: 20px 25px;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+
+.card h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card h3{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #b3b2ba;
+    font-weight: 400;
+}
+
+#png1{
+    position: absolute;
+    width: 5.5vw;
+    bottom: 35px;
+    left: 180px;
+}
+#png2{
+    position: absolute;
+    width: 5.5vw;
+    bottom: 35px;
+    left: 445px;
+}
+#png3{
+    position: absolute;
+    width: 5.5vw;
+    bottom: 30px;
+    left: 710px;
+}
+#png4{
+    position: absolute;
+    width: 5.5vw;
+    bottom: 30px;
+    right: 20px;
+}
+
+
+.asked-que{
+    width: 78vw;
+    font-size: 12px;
+    font-weight: 500;
+}
+.asked-que h1{
+    margin-bottom: 12px;
+}
+
+.que-container{
+    background-color: #2d2d2d;
+    padding: 15px ;
+    display: flex;
+    margin-top: 10px;
+
+    justify-content: space-between;
+}
+.que-container h3{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+}
+.que-container h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.membership{
+    margin-top: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.input1{
+    margin-top: 12px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 44px;
+}
+input{
+    align-items: center;
+    padding: 15px 12px;
+    background-color: #2927277e;
+    border: 1px solid rgb(112, 100, 100);
+    width: 38vw;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #fff;
+}
+input::placeholder{
+    font-size: 16px;
+    color: rgb(159, 161, 162);
+}
+
+.get-started1{
+    background-color: #e50914;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer{
+    color: #a7a7a7;
+}
+.contact{
+    margin: 34px  0px;
+    font-weight: 500;
+    color: #a7a7a7;
+}
+
+.footer-conatiner{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-box{
+    /* border: 2px solid white; */
+    width: 30vw;
+    
+}
+.footer-box h3{
+    color: #a7a7a7;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer-container{
+    margin-top: 31px;
+
+}
+
+.footer .lang1-logo{
+    width: 12px;
+    filter: invert(1);
+    position: absolute;
+    top: 2550px;
+    left: 145px;
+    z-index: 1;
+}
+
+.footer .footer-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #a7a7a7;
+    margin: 43px 0px;
 }
