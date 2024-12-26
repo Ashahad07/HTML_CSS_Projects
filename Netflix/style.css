@@ -7,10 +7,10 @@
 
 .container{
     background: linear-gradient(to top right, #0000007a, #000000e0), 
-        url(https://assets.nflxext.com/ffe/siteui/vlv3/150c4b42-11f6-4576-a00f-c631308b1e43/web/IN-en-20241216-TRIFECTA-perspective_915a9055-68ad-4e81-b19a-442f1cd134dc_large.jpg) 
+        url("https://assets.nflxext.com/ffe/siteui/vlv3/aa9edac4-a0e6-4f12-896e-32c518daec62/web/IN-en-20241223-TRIFECTA-perspective_1502c512-be5f-4f14-b21a-e3d75fe159ab_small.jpg") 
         center center/cover no-repeat;
     background-attachment: fixed;
-    background-position: 0px 0px;
+    background-position: 0px -15px;
     /* background-color: rgba(0, 0, 0, 0.39); */
     min-height: 100vh;
 }
@@ -101,10 +101,10 @@ select{
 }
 input{
     align-items: center;
-    padding: 15px 12px;
-    background-color: #2927277e;
+    padding: 18px 12px;
+    background-color: #201f1f8c;
     border: 1px solid rgb(112, 100, 100);
-    width: 22vw;
+    width: 26vw;
     border-radius: 5px;
     font-weight: 500;
     color: #fff;
@@ -311,7 +311,7 @@ input::placeholder{
     flex-wrap: wrap;
     margin-bottom: 44px;
 }
-input{
+.input1 input{
     align-items: center;
     padding: 15px 12px;
     background-color: #2927277e;
