@@ -97,7 +97,7 @@ body{
     /* border: 2px solid; */
     position: absolute;
     top: 200px;
-    left: 29%; /* This makes it more responsive */
+    left: 27%; /* This makes it more responsive */
     color: aliceblue;
 }
   
@@ -148,195 +148,214 @@ body{
     font-weight: 500;
 
 }
-.card{
-    width: 50vw;
-}
 
-.second-page {
+
+
+.Second-page {
     width: 100%;
     position: relative;
-    top: 150%;
+    /* top: 900%; */
     left: 0;
-    background: linear-gradient(to bottom, #0b1d2609 , #0B1D26,  #0B1D26,  #0B1D26, #0B1D26, #0B1D26, #0B1D26, #0B1D26); 
+    background: linear-gradient(to bottom, #0b1d2600 , #0b1d26,  #0B1D26,  #0B1D26, #0B1D26, #0B1D26, #0B1D26, #0B1D26); 
     z-index: 999;
-    padding: 5vw 4vw;
+    padding: 3vw 4vw;
     box-sizing: border-box;
-    padding-top: 19vw;
 }
 
-.first-container {
+.hiking-guide-container {
+    padding-top: 25vw;
+    width: 100%;
+}
+
+.section-container1 {
+    height: 720px;
     display: flex;
-    padding: 3vw;
+    padding: 4vw 3vw;
+    padding-top: 10vw;
+    position: relative;
 }
-.first-container .img1 img{
-    height: 600px;
-    background-size: cover;
-    width: 500px;
-    position: absolute;
-    top: 6%;
-    right: 5%;
+
+.section-container2 {
+    height: 720px;
+    display: flex;
+    padding: 2vw 3vw;
+    position: relative;
 }
-.first-container .number {
+
+.section-container3 {
+    height: 720px;
+    display: flex;
+    padding: 2vw 3vw;
+    padding-bottom: 2vw;
+    position: relative;
+}
+
+/* Content card */
+.section-container1 .content-card {
+    width: 60vw;
+    /* border: 2px solid; */
+    padding: 0 8vw;
+}
+.section-container2 .content-card {
+    /* border: 2px solid; */
+    width: 60vw;
+    padding: 0 5vw;
+    padding-left: 14vw;
+}
+
+.section-container3 .content-card {
+    /* border: 2px solid; */
+    width: 60vw;
+    padding: 1vw 9vw;
+}
+
+
+.section-container1 .step-number {
     font-family: 'Gilroy-Regular', sans-serif;
     font-size: 13vw;
     font-weight: 900;
-    color: rgba(255, 255, 255, 0.199); 
-    top: 7%;
-    left: 6%;
+    color: #ffffff2d; 
     position: absolute;
-
+    top: 3%;
+    left: 2%;
+}
+.section-container2 .step-number {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 13vw;
+    font-weight: 900;
+    color: #ffffff2d; 
+    position: absolute;
+    top: -10%;
+    right: 38%;
+}
+.section-container3 .step-number {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 13vw;
+    font-weight: 900;
+    color: #ffffff2d; 
+    position: absolute;
+    top: -7%;
+    left: 2%;
 }
 
-
-.card-contain{
-    padding: 0 8vw;
+.content-body {
+    
     opacity: 999;
     color: white;
 }
-.card-contains h1{
-    margin-top: 1vw;
-    font-family: 'Chronicle Display', sans-serif;
-    font-weight: 400;
-    font-size: 47px;
-}
 
-.second-container {
-    display: flex;
-    padding: 3vw;
-    
-}
-.second-container .card{
-    padding-top: 30vw;
-    padding-left: 5vw;
-}
-.second-container .img2 img{
-    height: 600px;
-    background-size: cover;
-    width: 500px;
-    position: relative;
-    top: 33%;
-    left:  0%;
-}
-
-.second-container .number {
-    font-family: 'Gilroy-Regular', sans-serif;
-    font-size: 13vw;
-    font-weight: 900;
-    color: rgba(255, 255, 255, 0.199); 
-    top: 36%;
-    right: 38%;
-    position: absolute;
-
-}
-
-
-
-.third-container {
-    display: flex;
-    padding: 3vw;
-    
-}
-.third-container .card{
-    padding-top: 30vw;
-    padding-left: 2vw;
-}
-.third-container .img2 img{
-    height: 600px;
-    background-size: cover;
-    width: 500px;
-    position: relative;
-    top: 30%;
-    left:  0%;
-}
-
-.third-container .number {
-    font-family: 'Gilroy-Regular', sans-serif;
-    font-size: 13vw;
-    font-weight: 900;
-    color: rgba(255, 255, 255, 0.199); 
-    top: 67%;
-    left: 5%;
-    position: absolute;
-
-}
-
-.get-line{
+.title-line {
     display: flex;
     align-items: center;
 }
 
-.get-line h3{
+.title-line h3 {
     color: #FBD784;
     font-family: 'Gilroy-Regular', sans-serif;
     letter-spacing: 1px;
     font-size: 14px;
 }
 
-
-.first-contains p{
+.content-details h1 {
     margin-top: 1vw;
-    font-family: 'Gilroy-bold', sans-serif;
+    font-family: 'Chronicle Display', sans-serif;
+    font-weight: 400;
+    font-size: 47px;
+}
+.content-details p {
+    margin-top: 1vw;
+    font-family: 'Gilroy-Bold', sans-serif;
     font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
 }
 
-.read-more{
+.read-more-link {
     margin-top: 2vw;
     display: flex;
     color: #FBD784;
     gap: 12px;
 }
-.read-more h3{
-    font-weight: 500;
 
+.read-more-link h3 {
+    font-weight: 500;
 }
-.read-more h4{
+
+.read-more-link h4 {
     font-weight: 500;
     font-family: 'Gilroy-bold', sans-serif;
     font-size: 15px;
 }
 
-.footer{
+/* Images */
+
+.image1 img {
+    height: 600px;
+    background-size: contain;
+    width: 450px;
+    position: relative;
+    top: -15%;
+}
+
+.image2 img {
+    height: 600px;
+    background-size: contain;
+    width: 450px;
+    position: relative;
+    top: -20%;
+}
+
+.image3 img {
+    height: 600px;
+    background-size: contain;
+    width: 450px;
+    position: relative;
+    top: -20%;
+}
+
+.footer {
     padding: 0 4vw;
-    padding-top: 6vw;
+    /* padding-top: 6vw; */
     background-color: #0B1D26;
-    /* z-index: 999; */
     color: white;
-    margin-top: 5vw;
+    margin-top: 1vw;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-first-section h1{
+.footer-left-section h1 {
     font-size: 32px;
     letter-spacing: 3px;
 }
-.footer-first-section p{
+
+.footer-left-section p {
     margin-top: 1vw;
     font-size: 1.2vw;
     width: 20vw;
 }
-.footer-first-section h5{
+
+.footer-left-section h5 {
     margin-top: 7vw;
     color: #646363;
     font-family: 'Gilroy-Regular', sans-serif;
-
 }
-.footer .more-on{
+
+.footer-links {
     display: flex;
     font-family: 'Gilroy-bold', sans-serif;
     width: 30vw;
     line-height: 33px;
     justify-content: space-between;
 }
-.footer .more-on h1{
+
+.footer-links h1 {
     font-size: 1.5vw;
     color: #FBD784;
 }
-.footer .more-on h3{
+
+.footer-links h3 {
     font-family: 'Gilroy-Regular', sans-serif;
     font-size: .9vw;
     color: #b3b3b3;
 }
-.footer .more-on .blog p{
-    
-}
+
