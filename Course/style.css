@@ -157,7 +157,7 @@ body {
 }
 
 .bg-box {
-    height: 50vw;
+    height: 53vw;
     width: 58vw;
     background-color: #EFF8ED;
     /* border: 2px solid; */
@@ -180,7 +180,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     object-fit: contain;
-    padding: 0 7vw;
+    padding: 0 8vw;
 }
 
 .brands-imgs .imgs img {
@@ -192,7 +192,7 @@ body {
 
 .second-container {
     width: 100%;
-    padding: 0 13vw;
+    padding: 0 14vw;
 }
 
 /* .quick-exam{
@@ -281,15 +281,15 @@ body {
 /* ! third-container */
 
 .third-contain {
-    padding: 8vw 13vw;
+    padding: 8vw 14vw;
     display: flex;
     /* border: 2px solid; */
 }
 
 .third-contain .course-img {
     /* border: 2px solid; */
-    height: 32vw;
-    width: 32vw;
+    height: 34vw;
+    width: 38vw;
 }
 
 .third-contain .course-img img {
@@ -346,7 +346,7 @@ body {
 }
 
 .forth-contain {
-    padding: 6vw 13vw;
+    padding: 6vw 14vw;
     width: 85vw;
 }
 
@@ -539,7 +539,7 @@ body {
 /* ! fifth-container" */
 
 .fifth-container {
-    padding: 8vw 13vw;
+    padding: 8vw 14vw;
 }
 
 .fifth-container .fifth-contain .advice h3 {
